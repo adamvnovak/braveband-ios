@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47BA5D4E29A6BF6C00682617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BA5D4D29A6BF6C00682617 /* AppDelegate.swift */; };
+		47BA5D5029A6BF6C00682617 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BA5D4F29A6BF6C00682617 /* SceneDelegate.swift */; };
+		47BA5D5229A6BF6C00682617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BA5D5129A6BF6C00682617 /* ViewController.swift */; };
+		47BA5D5529A6BF6C00682617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BA5D5329A6BF6C00682617 /* Main.storyboard */; };
+		47BA5D5729A6BF6D00682617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BA5D5629A6BF6D00682617 /* Assets.xcassets */; };
+		47BA5D5A29A6BF6D00682617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BA5D5829A6BF6D00682617 /* LaunchScreen.storyboard */; };
+		47BA5D6529A6BF6D00682617 /* braveband_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BA5D6429A6BF6D00682617 /* braveband_iosTests.swift */; };
+		47BA5D6F29A6BF6D00682617 /* braveband_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BA5D6E29A6BF6D00682617 /* braveband_iosUITests.swift */; };
+		47BA5D7129A6BF6D00682617 /* braveband_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BA5D7029A6BF6D00682617 /* braveband_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47BA5D6129A6BF6D00682617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47BA5D4229A6BF6C00682617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47BA5D4929A6BF6C00682617;
+			remoteInfo = "braveband-ios";
+		};
+		47BA5D6B29A6BF6D00682617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47BA5D4229A6BF6C00682617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47BA5D4929A6BF6C00682617;
+			remoteInfo = "braveband-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47BA5D4A29A6BF6C00682617 /* braveband-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "braveband-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BA5D4D29A6BF6C00682617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47BA5D4F29A6BF6C00682617 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47BA5D5129A6BF6C00682617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47BA5D5429A6BF6C00682617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47BA5D5629A6BF6D00682617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47BA5D5929A6BF6D00682617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47BA5D5B29A6BF6D00682617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BA5D6029A6BF6D00682617 /* braveband-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "braveband-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BA5D6429A6BF6D00682617 /* braveband_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = braveband_iosTests.swift; sourceTree = "<group>"; };
+		47BA5D6A29A6BF6D00682617 /* braveband-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "braveband-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BA5D6E29A6BF6D00682617 /* braveband_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = braveband_iosUITests.swift; sourceTree = "<group>"; };
+		47BA5D7029A6BF6D00682617 /* braveband_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = braveband_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47BA5D4729A6BF6C00682617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BA5D5D29A6BF6D00682617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BA5D6729A6BF6D00682617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47BA5D4129A6BF6C00682617 = {
+			isa = PBXGroup;
+			children = (
+				47BA5D4C29A6BF6C00682617 /* braveband-ios */,
+				47BA5D6329A6BF6D00682617 /* braveband-iosTests */,
+				47BA5D6D29A6BF6D00682617 /* braveband-iosUITests */,
+				47BA5D4B29A6BF6C00682617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47BA5D4B29A6BF6C00682617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47BA5D4A29A6BF6C00682617 /* braveband-ios.app */,
+				47BA5D6029A6BF6D00682617 /* braveband-iosTests.xctest */,
+				47BA5D6A29A6BF6D00682617 /* braveband-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47BA5D4C29A6BF6C00682617 /* braveband-ios */ = {
+			isa = PBXGroup;
+			children = (
+				47BA5D4D29A6BF6C00682617 /* AppDelegate.swift */,
+				47BA5D4F29A6BF6C00682617 /* SceneDelegate.swift */,
+				47BA5D5129A6BF6C00682617 /* ViewController.swift */,
+				47BA5D5329A6BF6C00682617 /* Main.storyboard */,
+				47BA5D5629A6BF6D00682617 /* Assets.xcassets */,
+				47BA5D5829A6BF6D00682617 /* LaunchScreen.storyboard */,
+				47BA5D5B29A6BF6D00682617 /* Info.plist */,
+			);
+			path = "braveband-ios";
+			sourceTree = "<group>";
+		};
+		47BA5D6329A6BF6D00682617 /* braveband-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				47BA5D6429A6BF6D00682617 /* braveband_iosTests.swift */,
+			);
+			path = "braveband-iosTests";
+			sourceTree = "<group>";
+		};
+		47BA5D6D29A6BF6D00682617 /* braveband-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47BA5D6E29A6BF6D00682617 /* braveband_iosUITests.swift */,
+				47BA5D7029A6BF6D00682617 /* braveband_iosUITestsLaunchTests.swift */,
+			);
+			path = "braveband-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47BA5D4929A6BF6C00682617 /* braveband-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BA5D7429A6BF6D00682617 /* Build configuration list for PBXNativeTarget "braveband-ios" */;
+			buildPhases = (
+				47BA5D4629A6BF6C00682617 /* Sources */,
+				47BA5D4729A6BF6C00682617 /* Frameworks */,
+				47BA5D4829A6BF6C00682617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "braveband-ios";
+			productName = "braveband-ios";
+			productReference = 47BA5D4A29A6BF6C00682617 /* braveband-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47BA5D5F29A6BF6D00682617 /* braveband-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BA5D7729A6BF6D00682617 /* Build configuration list for PBXNativeTarget "braveband-iosTests" */;
+			buildPhases = (
+				47BA5D5C29A6BF6D00682617 /* Sources */,
+				47BA5D5D29A6BF6D00682617 /* Frameworks */,
+				47BA5D5E29A6BF6D00682617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47BA5D6229A6BF6D00682617 /* PBXTargetDependency */,
+			);
+			name = "braveband-iosTests";
+			productName = "braveband-iosTests";
+			productReference = 47BA5D6029A6BF6D00682617 /* braveband-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47BA5D6929A6BF6D00682617 /* braveband-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BA5D7A29A6BF6D00682617 /* Build configuration list for PBXNativeTarget "braveband-iosUITests" */;
+			buildPhases = (
+				47BA5D6629A6BF6D00682617 /* Sources */,
+				47BA5D6729A6BF6D00682617 /* Frameworks */,
+				47BA5D6829A6BF6D00682617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47BA5D6C29A6BF6D00682617 /* PBXTargetDependency */,
+			);
+			name = "braveband-iosUITests";
+			productName = "braveband-iosUITests";
+			productReference = 47BA5D6A29A6BF6D00682617 /* braveband-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47BA5D4229A6BF6C00682617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					47BA5D4929A6BF6C00682617 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					47BA5D5F29A6BF6D00682617 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47BA5D4929A6BF6C00682617;
+					};
+					47BA5D6929A6BF6D00682617 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47BA5D4929A6BF6C00682617;
+					};
+				};
+			};
+			buildConfigurationList = 47BA5D4529A6BF6C00682617 /* Build configuration list for PBXProject "braveband-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47BA5D4129A6BF6C00682617;
+			productRefGroup = 47BA5D4B29A6BF6C00682617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47BA5D4929A6BF6C00682617 /* braveband-ios */,
+				47BA5D5F29A6BF6D00682617 /* braveband-iosTests */,
+				47BA5D6929A6BF6D00682617 /* braveband-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47BA5D4829A6BF6C00682617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BA5D5A29A6BF6D00682617 /* LaunchScreen.storyboard in Resources */,
+				47BA5D5729A6BF6D00682617 /* Assets.xcassets in Resources */,
+				47BA5D5529A6BF6C00682617 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BA5D5E29A6BF6D00682617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BA5D6829A6BF6D00682617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47BA5D4629A6BF6C00682617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BA5D5229A6BF6C00682617 /* ViewController.swift in Sources */,
+				47BA5D4E29A6BF6C00682617 /* AppDelegate.swift in Sources */,
+				47BA5D5029A6BF6C00682617 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BA5D5C29A6BF6D00682617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BA5D6529A6BF6D00682617 /* braveband_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BA5D6629A6BF6D00682617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BA5D7129A6BF6D00682617 /* braveband_iosUITestsLaunchTests.swift in Sources */,
+				47BA5D6F29A6BF6D00682617 /* braveband_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47BA5D6229A6BF6D00682617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47BA5D4929A6BF6C00682617 /* braveband-ios */;
+			targetProxy = 47BA5D6129A6BF6D00682617 /* PBXContainerItemProxy */;
+		};
+		47BA5D6C29A6BF6D00682617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47BA5D4929A6BF6C00682617 /* braveband-ios */;
+			targetProxy = 47BA5D6B29A6BF6D00682617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47BA5D5329A6BF6C00682617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47BA5D5429A6BF6C00682617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47BA5D5829A6BF6D00682617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47BA5D5929A6BF6D00682617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47BA5D7229A6BF6D00682617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47BA5D7329A6BF6D00682617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47BA5D7529A6BF6D00682617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JEM6D7V78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "braveband-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leaveylabs.braveband-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47BA5D7629A6BF6D00682617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JEM6D7V78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "braveband-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leaveylabs.braveband-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47BA5D7829A6BF6D00682617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JEM6D7V78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leaveylabs.braveband-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/braveband-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/braveband-ios";
+			};
+			name = Debug;
+		};
+		47BA5D7929A6BF6D00682617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JEM6D7V78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leaveylabs.braveband-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/braveband-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/braveband-ios";
+			};
+			name = Release;
+		};
+		47BA5D7B29A6BF6D00682617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JEM6D7V78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leaveylabs.braveband-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "braveband-ios";
+			};
+			name = Debug;
+		};
+		47BA5D7C29A6BF6D00682617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JEM6D7V78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leaveylabs.braveband-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "braveband-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47BA5D4529A6BF6C00682617 /* Build configuration list for PBXProject "braveband-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BA5D7229A6BF6D00682617 /* Debug */,
+				47BA5D7329A6BF6D00682617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BA5D7429A6BF6D00682617 /* Build configuration list for PBXNativeTarget "braveband-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BA5D7529A6BF6D00682617 /* Debug */,
+				47BA5D7629A6BF6D00682617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BA5D7729A6BF6D00682617 /* Build configuration list for PBXNativeTarget "braveband-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BA5D7829A6BF6D00682617 /* Debug */,
+				47BA5D7929A6BF6D00682617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BA5D7A29A6BF6D00682617 /* Build configuration list for PBXNativeTarget "braveband-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BA5D7B29A6BF6D00682617 /* Debug */,
+				47BA5D7C29A6BF6D00682617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47BA5D4229A6BF6C00682617 /* Project object */;
+}
